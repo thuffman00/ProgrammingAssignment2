@@ -49,7 +49,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve looks at the content of the queue of the function passed in. If the queue's 
-## empty, cacheSolve perofrms the inverse and sets the queue with the result. 
+## empty, cacheSolve performs the inverse and sets the queue with the result. 
 ## If the queue already has data, cacheSolve returns the existing data.
 
 cacheSolve <- function(x, ...) {
